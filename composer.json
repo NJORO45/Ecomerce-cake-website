@@ -1,0 +1,28 @@
+{
+    "name": "hp/baecakes",
+    "autoload": {
+        "psr-4": {
+            "BNjunge\\": "src/",
+            "phpexport\\":"src/"
+
+        },
+        
+        "files":[
+        "src/helpers.php"
+       ]
+    },
+    "authors": [
+        {
+            "name": "joelwmulongo",
+            "email": "joelmulongo97@gmail.com"
+        }
+    ],
+   
+    "require": {
+        "guzzlehttp/guzzle": "^7.9",
+        "vlucas/phpdotenv": "^5.6",
+        "ext-gd": "*",
+        "ext-fileinfo": "*",
+        "phpoffice/phpspreadsheet": "^3.3"
+    }
+}
